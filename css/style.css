@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100&family=Phudu:wght@300&display=swap');
+
+body { 
+    background-color: rgba(227, 157, 26, 0.8);
+}
+
+.heading {
+    text-align: center
+}
+
+.playground-heading {
+    color: rgb(10, 102, 10);
+    font-family: 'Phudu', cursive;
+    font-size: 4rem;
+}
+
+.main {
+    border: 3px solid grey;
+    width: 55%;
+    margin: 1rem auto;
+}
+
+.main div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+#red {
+    border-color: red;
+}
+
+#blue {
+    border-color: blue;
+}
+
+#green {
+    border-color: green;
+}
+
+.footer {
+    color: rgb(51, 4, 51);
+    font-family: 'Labrada', serif;
+    font-size: 2rem;
+    text-align: center
+} 
